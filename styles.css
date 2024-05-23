@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "tablefont";
+    src: url('Jacquard_12/Jacquard12-Regular.ttf')
+}
+.head {
+    background-image: url("headercar.jpg");
+    height: 650px;
+    background-position:center center;
+}
+.head h1 {
+    text-align: center;
+    color: #343F53;
+    font-size: 100px;
+    margin-bottom: 3px;
+    height:90px;
+}
+.navigation li{
+    
+    color: blue;
+    display: inline-block;
+    width: 200px;
+    
+   
+}
+.navigation {
+    text-align: center;
+    margin-top: 3px;
+}
+.musclecars li{
+display:block;
+font-family: 'Danfo';
+color:brown;
+font-size: 30px;
+}
+
+.musclecars {
+margin-top: 90px;
+}
+
+.sportscars li {
+text-align: right;
+display:block;
+font-family: "Faster One";
+color:rgb(0, 255, 0);
+font-size: 30px;
+}
+.sportscars {
+    margin-top:-220px;
+    }
+
+.familycars{
+margin-top: 220px;
+}
+
+table th,
+table td{
+    border: 1px solid red;
+}
+table {
+    border-collapse: collapse;
+    empty-cells: hide;
+    font-family: 'tablefont';
+}
+.even {
+    background-color: aqua;
+}
